@@ -13,35 +13,35 @@
 
     </head>
     <body>
-        <!-- Cabeçalho do Site -->
-        <header class="cabecalho">
+        <header>
             <div class="conteinerCapa">
-                <img class="cabecalho_imagem" src="imagens/Capa_Zoologico_Guarulhos.jpg" alt="Capa_Zoologico_Guarulhos">
+                <img src="imagens/Capa_Zoologico_Guarulhos.jpg" alt="Capa_Zoologico_Guarulhos">
             </div>
-            <nav class="cabecalho_menu">
+            <!-- Nav Desktop -->
+            <nav class="nav-desktop">
                <ul>
                    <li>
-                       <a href="home.html" target="_self">
+                       <a href="page_home.html" target="_self">
                             Home
                        </a>
                    </li>
                    <li>
-                       <a href="historia.html" target="_self">
+                       <a href="page_historia.html" target="_self">
                             História
                        </a>
                    </li>
                    <li>
-                       <a href="animais.html" target="_self">
+                       <a href="page_animais.html" target="_self">
                             Animais
                        </a>
                    </li>
                    <li>
-                       <a href="duvidas.html" target="_self">
+                       <a href="page_duvidas.html" target="_self">
                             Dúvidas
                        </a>
                    </li>
                    <li>
-                       <a href="contato.html" target="_self">
+                       <a href="page_contato.html" target="_self">
                             Contato
                        </a>
                    </li>
@@ -50,7 +50,6 @@
             </nav>
         </header>
 
-        <!-- Conteúdo do Site -->
         <main>
 
             <h1 class="main_titulo1">Bem vindo ao Zoológico de Guarulhos</h1>
@@ -64,7 +63,9 @@
                 <div class="main_box1">
                     <img class="logo_home" src="images/icons/icon_description.svg" alt="logo_endereco">
                     <h2 class="main_titulo3">Pesquisa e Conservação</h2>
-                    <p class="main_paragrafo">O Zoo de Guarulhos desenvolve pesquisas em áreas da medicina veterinária e biologia por seu corpo técnico, e também participa de projetos de outras instituições, como programas de mestrado, doutorado e iniciação científica.</p>
+                    <p class="main_paragrafo">
+                        O Zoo de Guarulhos desenvolve pesquisas em áreas da medicina veterinária e biologia por seu corpo técnico, e também participa de projetos de outras instituições, como programas de mestrado, doutorado e iniciação científica.
+                    </p>
                 </div>
 
                 <div class="main_box1">
@@ -110,22 +111,30 @@
             </div>
         </main>
         
-        <!-- Rodapé do Site -->
         <footer>
-            <ul>
+            <ul class="nav-social">
                 <li>
-                    <a target="_blank" href="https://www.instagram.com/zooguarulhos/">
-                        <img src="imagens/logo_instagram.png" alt="Instagram">
+                    <a href="https://www.instagram.com/zooguarulhos/"
+                       target="_blank" 
+                       rel="noopener" 
+                       aria-label="Siga-nos em instagram (abre em uma nova janela)">
+                       <i class="bi bi-instagram"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://twitter.com/PrefGru_Oficial">
-                        <img src="imagens/logo_twitter.png" alt="Twitter">
+                    <a href="https://twitter.com/PrefGru_Oficial"
+                       target="_blank"
+                       rel="noopener"
+                       aria-label="Siga-nos em twitter (abre em uma nova janela)">
+                       <i class="bi bi-twitter"></i>
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.facebook.com/zoologico.guarulhos/about/?ref=page_internal">
-                        <img src="imagens/logo_facebook.png" alt="Facebook">
+                    <a href="https://www.facebook.com/zoologico.guarulhos/about/?ref=page_internal" 
+                       target="_blank" 
+                       rel="noopener" 
+                       aria-label="Siga-nos em facebook (abre em uma nova janela)">
+                       <i class="bi bi-facebook"></i>
                     </a>
                 </li>
             </ul>
